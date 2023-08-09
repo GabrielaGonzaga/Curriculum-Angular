@@ -1,4 +1,33 @@
-.title {
-  font-family: sans-serif;
-  font-size: 120%;
+.profile-content {
+  display: flex;
+  width: 800px;
+}
+
+.profile-content img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+}
+
+.title{
+  font-size: 36px ;
+  font-weight: normal;
+  color: #7F52FF;
+}
+
+.info-content{
+  width: 700px;
+  display: flex;
+}
+
+.title-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-content i{
+  color: #FFFFFF;
+  font-size: 30px;
+
 }

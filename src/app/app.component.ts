@@ -1,10 +1,10 @@
 import { Component, VERSION } from '@angular/core';
 
 @Component({
-  selector: 'ap1',
+  selector: 'ProfileComponent',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'Crishna ' + VERSION.full;
+  name = 'Gabriela Gonzaga';
 }
