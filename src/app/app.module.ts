@@ -5,13 +5,10 @@ import { CardComponent, ProfileComponent } from './app.component';
 
 @NgModule({
   imports: [BrowserModule],
-  declarations: [ProfileComponent],
-  bootstrap: [ProfileComponent],
+  declarations: [ProfileComponent, CardComponent],
+  bootstrap: [AppModule],
+  exports:[ProfileComponent, CardComponent],
 })
 
-@NgModule({
-  imports: [BrowserModule],
-  declarations: [CardComponent],
-  bootstrap: [CardComponent],
-})
 export class AppModule {}
+

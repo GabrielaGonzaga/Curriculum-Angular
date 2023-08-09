@@ -17,3 +17,13 @@ export class ProfileComponent {
 export class CardComponent {
   name = 'Gabriela Gonzaga';
 }
+
+
+// @Component({
+//   selector: 'ProfileComponent',
+//   templateUrl: './app.component.html',
+//   styleUrls: ['./app.component.css'],
+// })
+// export class AppComponent {
+//   name = 'Gabriela Gonzaga';
+// }
