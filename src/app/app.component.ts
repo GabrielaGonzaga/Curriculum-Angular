@@ -1,10 +1,19 @@
-import { Component, VERSION } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ap1',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'ProfileComponent',
+  templateUrl: 'ProfileComponent/index.html',
+  styleUrls: ['ProfileComponent/style.css'],
 })
-export class AppComponent {
-  name = 'Crishna ' + VERSION.full;
+export class ProfileComponent {
+  name = 'Gabriela Gonzaga';
+}
+
+@Component({
+  selector: 'CardComponent',
+  templateUrl: 'CardComponent/index.html',
+  styleUrls: ['CardComponent/style.css'],
+})
+export class CardComponent {
+  name = 'Gabriela Gonzaga';
 }
