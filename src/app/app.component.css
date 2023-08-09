@@ -1,33 +1,44 @@
 .profile-content {
   display: flex;
-  width: 800px;
+  width: 880px;
 }
 
 .profile-content img {
   width: 260px;
   height: 260px;
   border-radius: 50%;
+  margin-right: 3rem;
 }
 
-.title{
-  font-size: 36px ;
+.title {
+  width: 100%;
+  font-size: 36px;
   font-weight: normal;
-  color: #7F52FF;
+  color: #7f52ff;
 }
 
-.info-content{
-  width: 700px;
-  display: flex;
+p {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: justify;
 }
 
-.title-content{
+.info-content {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-content {
+  display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
-.title-content i{
-  color: #FFFFFF;
+.title-content i {
+  color: #ffffff;
   font-size: 30px;
-
+  margin-right: 10px;
 }
